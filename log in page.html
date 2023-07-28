@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+	<title>Log In</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<style>
+		.bodylog
+		{
+			background-image: url('./newbglog.jpg');
+			overflow-x: hidden;
+	        min-height: 100vh;
+	        background-size: cover;
+	        background-repeat: no-repeat;
+	        height: 100vh;
+		}
+		.form-control
+		{
+			padding-bottom: 10px;
+			padding-top: 10px;
+			border-radius:8px;
+			background: #fff;
+			box-sizing: border-box;
+			border:1px solid #0000002e;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+        .form
+        {
+			box-sizing: border-box;
+			padding-bottom: 20px;
+			padding-top: 20px;
+			border-radius:8px;
+			background: transparent;
+			margin-top: 170px;
+			padding-left: 15px;
+			padding-right: 15px;
+			border: 2px solid #0000002e;
+		}
+	</style>
+</head>
+<body class="bodylog">
+	<header id="header">
+		<a href = "amzing webpage.html" class = "logo">Tastytrades</a>
+		<ul>
+			<li><a href="amzing webpage.html">Home</a></li>
+			<li><a href="log in page.html" class="active">Log In</a></li>
+			<li><a href="sign up page.html">Register</a></li>
+			<li><a href="helpful links.html">Quick links</a></li>
+		</ul>
+	</header>
+	<div class ="container">
+		<div class= "row">
+			<div class="col-md-4">
+			</div>
+			<div class = "col-md-4">
+				<form class = "form">
+					<div class="row">
+						<div class ="col-md-12">
+							<h3 class = "texttext">Log In</h3>
+						</div>
+						<div class ="col-md-12">
+						    <ion-icon name="person"></ion-icon>
+						    <label>Username</label>		
+						    <input type="text" class="form-control" placeholder="Username or Email">						
+					    </div>
+					    <div class = "col-md-12">
+					    	<ion-icon name="lock-closed"></ion-icon>
+					    	<label>Password</label>
+					    	<input type="text" class="form-control" placeholder="Password">
+					    </div>
+					    <div class = "col-md-12">
+					    	<button type="submit" class="btn btn-info form-control" style="background: #3eb954;" border-radius = "10px" name="submit_button">Log in</button>
+					    </div>
+					</div>
+				</form>
+			</div>
+			<div class = "col-md-4">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+

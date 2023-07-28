@@ -1,0 +1,279 @@
+#style.css
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: borden-box;
+    font-family: 'Source Serif 4', serif;
+}
+body
+{
+	overflow-x: hidden;
+	min-height: 100vh;
+	background-image: url('./vegetables-spices-near-salad-spatula.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+#header
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:30px 100px;
+	display: flex;
+	justify-content:space-between;
+	align-items:center; 
+	background: #f8fffda6;
+}
+#header .logo
+{
+	color:#35a13c;
+	font-weight: 700;
+	font-size: 2em;
+	text-decoration: none;
+	border-radius: 20px;
+    padding: 6px 15px;
+}
+#header ul
+{
+	display: flex;
+	justify-content: centre;
+	align-items:center;
+}
+#header ul li
+{
+	list-style:none;
+	margin-left: 20px;
+}
+#header ul li a 
+{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: #35a13c;
+	border-radius:20px;
+}
+
+#header ul li a:hover,#header ul li a.active
+
+{
+	background:#35a13c ;
+	color: #fff ;
+	border-radius: 20px;
+
+}
+section
+{
+	position:relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section #text
+{
+	position: absolute;
+	color:#38740a;
+	font-size: 10vw;
+	text-align:centre;
+	line-height: 0.55em;
+}
+section #text span
+{
+	font-size:0.20em;
+	letter spacing: 2px;
+	font-weight:400;
+}
+.sec
+{
+	position: relative;
+	padding: 100px;
+	background: #449f4a;
+}
+.sec h2
+{
+	font-size: 3.5em;
+	color: #fff;
+	margin: 10px;
+}
+.sec p
+{
+	font-size:1em;
+	color:#fff;
+}
+.body
+{
+	background-image: url('./newbglog.jpg');
+	overflow-x: hidden;
+	min-height: 100vh;
+	background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.form-control
+{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius:8px;
+	background: #fff;
+	box-sizing: border-box;
+	border:1px solid black;
+	margin-top: 5px;
+}
+.form
+{
+	box-sizing: border-box;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius:8px;
+	background: transparent;
+	margin-top: 170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 2px solid #0000002e;
+	backdrop-filter: blur(20px);
+}
+.texttext
+{
+	text-align: center;
+	color: black;
+}
+.bodylog
+{
+    background-image: url('./newbglog.jpg');
+	overflow-x: hidden;
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.links
+{
+	text-decoration: none;
+	color: white;
+	border-radius:20px;
+	position: absolute;
+	top:120px;
+	right:200px;
+	left:200px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	background: #35a13c;
+	margin-left: 10px;
+	margin-right: 10px;
+	list-style: none;
+}
+.links li a 
+{
+	text-decoration: none;
+	padding: 6px 15px;
+	color: white;
+	border-radius:20px;
+}
+
+.links li a:hover,.links li a.active
+{
+	background: white ;
+	color:#35a13c;
+	border-radius: 20px;
+}
+.one
+{
+	position: relative;
+	padding : 50px 100px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-size: cover;
+	
+}
+.one .two
+{
+	top:70px;
+	max-width: 800px;
+	text-align: center;
+}
+.one .two h3
+{
+	font-size:36px;
+	font-weight:500;
+	color: white;
+	top:50px;
+}
+.one .two p
+{
+	font-weight:300;
+	color: white;	
+}
+.three
+{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	margin-top: 30px;
+
+}
+.three .four
+{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.three .four .five
+{
+	position: relative;
+	padding:20px 0 ;
+}
+.three .four .five b
+{
+	color:white;
+}
+.six
+{
+	width:100%;
+	padding:20px;
+}
+.six h2
+{
+	font-size: 25px;
+	color:#333;
+	font-weight: 500;
+
+}
+.six .seven
+{
+	position:fixeds;
+	width:100%;
+	margin-top:10px;
+}
+.six .seven input,
+.six .seven textarea
+{
+	width:100%;
+	padding:5px 0;
+	font-size: 16;
+	margin:10px 0;
+	border: none;
+	border-bottom:2px solid #333;
+	outline:none;
+	resize:none;
+}
+.six .seven span
+{
+	position: absolute;
+	left:15px;
+}
+.six .seven input:focus ~ span
+{
+	color:black;
+	font-size
+}
